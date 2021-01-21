@@ -1,5 +1,5 @@
 """
-ASGI config for pycharmDjangoDemo project.
+ASGI config for DjangoDemo-polls project.
 
 It exposes the ASGI callable as a module-level variable named ``application``.
 
@@ -11,6 +11,6 @@ import os
 
 from django.core.asgi import get_asgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'pycharmDjangoDemo.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'DjangoDemo-polls.settings')
 
 application = get_asgi_application()
